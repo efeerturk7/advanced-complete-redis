@@ -103,8 +103,8 @@ To test all advanced features, you need a local Redis instance.
 
 2.  **Clone the repository:**
     ```bash
-    git clone https://github.com/efeerturk7/redis-flash-sale.git
-    cd redis-flash-sale
+    git clone https://github.com/efeerturk7/advanced-complete-redis
+    cd advanced-complete-redis
     ```
 
 3.  **Build and Run the Application:**
@@ -122,4 +122,4 @@ To test all advanced features, you need a local Redis instance.
       `GET http://localhost:8080/api/v1/flash-sale/product/1/stats`
       *(Returns the unique visitor count from HLL).*
     * **Purchase (Distributed Lock & Rate Limit Test):**
-      `POST http://localhost:8080/api/v1/flash-sale/purchase?productId=1&userId=user_123&quantity=# 🛒 E-Commerce Flash Sale Engine - Advanced Redis Architecture
+      `POST http://localhost:8080/api/v1/flash-sale/purchase?productId=1&userId=user_123&quantity=#` 🛒 E-Commerce Flash Sale Engine - Advanced Redis Architecture
